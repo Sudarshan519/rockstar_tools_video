@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset=utf-8 />
+    <title>Your title</title>
+      
+    
+    <link href="//vjs.zencdn.net/8.3.0/video-js.min.css" rel="stylesheet">
+    <script src="//vjs.zencdn.net/8.3.0/video.min.js"></script>
+       
+    </head>
+    <body>
+      
+      <video src=""  id="my_video_1" class="video-js vjs-fluid vjs-default-skin" autoplay controls
+      data-setup='{}' >
+        <source src="https://sudarshan519.github.io/rockstar_tools_video/Module1-Introvideo/master_playlist.m3u8">
+      </video>
+      
+    <script>
+   // Initialize Video.js player
+var player = videojs('my_video_1');
+
+// Initialize HLS plugin
+videojs.HlsHandler({});
+// Autoplay video
+player.play();
+
+    </script>
+      
+    </body>
+    </html>
